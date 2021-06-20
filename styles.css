@@ -1,0 +1,115 @@
+ * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+body{
+display:flex;
+flex-direction:column;
+}
+header{
+background-color:teal;
+
+}
+
+nav{
+margin:20px 10px 20px 10px;
+
+}
+nav .nav-link{
+text-decoration:none;
+color:white;
+
+}
+nav .nav-item{
+padding:10px 10px 10px 40px;
+}
+
+.nav-items{
+margin:20px 10px 20px 10px;
+list-style:none;
+flex-direction:row;
+
+}
+a{
+text-decoration:none;
+color:black;
+}
+main{
+display:flex;
+flex-direction: row;
+flex:auto;
+}
+
+article{
+flex: 2;
+overflow-y: auto
+color:#0000;
+border:1;
+
+}
+.follow-btn {
+    display: flex;
+  }
+ .follow-btn button {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+    margin: auto auto 10px auto;
+background-color:hsl(207, 98%, 50%);
+  }
+
+#inner p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #inner hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+ .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+
+#inner p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #inner hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+.stats {
+    display: flex;
+    font-size: 15px;
+  }
+.stats strong {
+    font-size: 18px;
+  }
+.stats .likes {
+    margin-left: 10px;
+  }
+ .cta {
+    margin-left: auto;
+float:right;
+  }
+.cta button {
+    border: 0;
+    background: transparent;
+  }
+
+aside{
+flex:1;
+background-color:hsl(208, 49%, 90%);
+overflow-y: auto
+
+}
+
+footer{
+background-color:hsl(207, 82%, 23%);
+display:fixed;
+}
+
